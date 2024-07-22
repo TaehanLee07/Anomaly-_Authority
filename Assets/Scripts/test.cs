@@ -15,13 +15,22 @@ public class test : MonoBehaviour
         {
             switch (index)
             {
-                case 0: StartCoroutine(TypingCoroutine("20xx³â SCP¶ó´Â ¹ÌÁöÀÇ Á¸Àç°¡ Ã³À½ ¹ß°ßµÈ ÀÌÈÄ ¼¼»óÀº ´ëÈ¥¶õ ¼Ó¿¡ »ì¾Æ°¬´Ù.")); break;
-                case 1: StartCoroutine(TypingCoroutine("±×·¯´ø ¾î´À³¯ S»ç ¶ó´Â È¸»ç°¡ ³ªÅ¸³ª ¼Î°è¿¡ ÀÖ´Â SCPµéÀ» Àâ¾Æ ½Ã¼³¿¡ °İ¸®ÇÏ±â ½ÃÀÛÇÏ¿´°í")); break;
-                case 2: StartCoroutine(TypingCoroutine("¹ÌÁöÀÇ Á¸Àçµé·Î ºÎÅÍ ¿¡³ÊÁö¿Í ÀÚ¿øÀ» ¾ò¾î ÀÎ·ùÀÇ ¹ßÀü¿¡ ±â¿©ÇÏ¸ç ¼¼°è ÃÖ°íÀÇ È¸»ç·Î½á ¼ºÀåÇÏ¿´´Ù.")); break;
-                case 4: StartCoroutine(TypingCoroutine("±×·¸°Ô 21xx³â ´ç½ÅÀº S»ç¿¡ ½ÅÀÔÀ¸·Î µé¾î¿À°Ô µÇ¾ú½À´Ï´Ù.")); break;
-                case 5: StartCoroutine(TypingCoroutine("±×°Íµµ S»çÀÇ ÇÙ½É ºÎ¼­Áß ÇÏ³ªÀÎ ¿¬±¸ºÎ¼­ÀÇ 4ÆÀ ½ÅÀÔÀ¸·Î µé¾î¿À°ÔµÇ¾ú½À´Ï´Ù.")); break;
-                case 6: StartCoroutine(TypingCoroutine("´ç½ÅÀº ¾öÃ»³­ Çàº¹°¨°ú ¹Ì·¡¿¡ È²±İºû °°Àº »ıÈ°À» ÇÒ »ı°¢À» ÇÏ¸ç Ã¹ Ãâ±ÙÀ» ÇÏ°ÔµË´Ï´Ù.")); break;
-
+                case 0: StartCoroutine(TypingCoroutine("20xxë…„ SCPë¼ëŠ” ë¯¸ì§€ì˜ ì¡´ì¬ê°€ ì²˜ìŒ ë°œê²¬ëœ ì´í›„ ì„¸ìƒì€ ëŒ€í˜¼ë€ ì†ì— ì‚´ì•„ê°”ë‹¤.")); break;
+                case 1: StartCoroutine(TypingCoroutine("ê·¸ëŸ¬ë˜ ì–´ëŠë‚  Sì‚¬ ë¼ëŠ” íšŒì‚¬ê°€ ë‚˜íƒ€ë‚˜ ì…°ê³„ì— ìˆëŠ” SCPë“¤ì„ ì¡ì•„ ì‹œì„¤ì— ê²©ë¦¬í•˜ê¸° ì‹œì‘í•˜ì˜€ê³ ")); break;
+                case 2: StartCoroutine(TypingCoroutine("ë¯¸ì§€ì˜ ì¡´ì¬ë“¤ë¡œ ë¶€í„° ì—ë„ˆì§€ì™€ ìì›ì„ ì–»ì–´ ì¸ë¥˜ì˜ ë°œì „ì— ê¸°ì—¬í•˜ë©° ì„¸ê³„ ìµœê³ ì˜ íšŒì‚¬ë¡œì¨ ì„±ì¥í•˜ì˜€ë‹¤.")); break;
+                case 3: StartCoroutine(TypingCoroutine("ê·¸ë ‡ê²Œ 21xxë…„ ë‹¹ì‹ ì€ Sì‚¬ì— ì‹ ì…ìœ¼ë¡œ ë“¤ì–´ì˜¤ê²Œ ë˜ì—ˆìŠµë‹ˆë‹¤.")); break;
+                case 4: StartCoroutine(TypingCoroutine("ê·¸ê²ƒë„ Sì‚¬ì˜ í•µì‹¬ ë¶€ì„œì¤‘ í•˜ë‚˜ì¸ ì—°êµ¬ë¶€ì„œì˜ 4íŒ€ ì‹ ì…ìœ¼ë¡œ ë“¤ì–´ì˜¤ê²Œë˜ì—ˆìŠµë‹ˆë‹¤.")); break;
+                case 5: StartCoroutine(TypingCoroutine("ë‹¹ì‹ ì€ ì—„ì²­ë‚œ í–‰ë³µê°ê³¼ ë¯¸ë˜ì— í™©ê¸ˆë¹› ê°™ì€ ìƒí™œì„ í•  ìƒê°ì„ í•˜ë©° ì²« ì¶œê·¼ì„ í•˜ê²Œë©ë‹ˆë‹¤.")); break;
+                case 6: StartCoroutine(TypingCoroutine("ì²«ë‚ , ë‹¹ì‹ ì€ íšŒì‚¬ì˜ ë³µì¡í•œ êµ¬ì¡°ì™€ ìˆ˜ë§ì€ ì—°êµ¬ ì¥ë¹„ë“¤ì— ë†€ë¼ì›€ì„ ê¸ˆì¹˜ ëª»í•©ë‹ˆë‹¤.")); break;
+                case 7: StartCoroutine(TypingCoroutine("ê³§ì´ì–´ íŒ€ì¥ë‹˜ê»˜ì„œ ë‚˜íƒ€ë‚˜ ì‹ ì… í™˜ì˜ ì¸ì‚¬ë¥¼ í•˜ì‹­ë‹ˆë‹¤.")); break;
+                case 8: StartCoroutine(TypingCoroutine("íŒ€ì¥: 'í™˜ì˜í•©ë‹ˆë‹¤. ìš°ë¦¬ íŒ€ì— í•©ë¥˜í•˜ê²Œ ë˜ì–´ ë§¤ìš° ê¸°ì©ë‹ˆë‹¤.'")); break;
+                case 9: StartCoroutine(TypingCoroutine("ë‹¹ì‹ ì€ íŒ€ì›ë“¤ê³¼ ì¸ì‚¬ë¥¼ ë‚˜ëˆ„ê³ , ë³¸ê²©ì ì¸ ì—…ë¬´ë¥¼ ì‹œì‘í•©ë‹ˆë‹¤.")); break;
+                case 10: StartCoroutine(TypingCoroutine("ì²« ê³¼ì œëŠ” SCP-173ì— ëŒ€í•œ ì—°êµ¬ ìë£Œë¥¼ ë¶„ì„í•˜ëŠ” ê²ƒì´ì—ˆìŠµë‹ˆë‹¤.")); break;
+                case 11: StartCoroutine(TypingCoroutine("íŒ€ì›: 'ì²˜ìŒì´ë¼ ì–´ë µê² ì§€ë§Œ, ìš°ë¦¬ê°€ ë„ì™€ì¤„í…Œë‹ˆ ê±±ì • ë§ˆì„¸ìš”.'")); break;
+                case 12: StartCoroutine(TypingCoroutine("ë‹¹ì‹ ì€ íŒ€ì›ë“¤ì˜ ë„ì›€ìœ¼ë¡œ ì„œì„œíˆ ì—…ë¬´ì— ì ì‘í•´ ê°‘ë‹ˆë‹¤.")); break;
+                case 13: StartCoroutine(TypingCoroutine("ë©°ì¹  í›„, ì²« ì—°êµ¬ ê²°ê³¼ë¥¼ ë°œí‘œí•˜ê²Œ ë©ë‹ˆë‹¤.")); break;
+                case 14: StartCoroutine(TypingCoroutine("íŒ€ì¥: 'ì˜ í–ˆìŠµë‹ˆë‹¤. ì•ìœ¼ë¡œë„ ê¸°ëŒ€ê°€ í½ë‹ˆë‹¤.'")); break;
+                case 15: StartCoroutine(TypingCoroutine("ë‹¹ì‹ ì€ ì—°êµ¬ì›ìœ¼ë¡œì„œì˜ ì²« ë°œê±¸ìŒì„ ì„±ê³µì ìœ¼ë¡œ ë‚´ë”›ì—ˆìŠµë‹ˆë‹¤.")); break;
             }
 
             index++;
@@ -30,13 +39,13 @@ public class test : MonoBehaviour
 
     public IEnumerator TypingCoroutine(string str)
     {
-        int strTypingLength = str.GetTypingLength();      // ÃÖ´ë Å¸ÀÌÇÎ ¼ö¸¦ ±¸ÇÏ°í
+        int strTypingLength = str.GetTypingLength();      // ìµœëŒ€ íƒ€ì´í•‘ ìˆ˜ë¥¼ êµ¬í•˜ê³ 
 
-        for (int i = 0; i <= strTypingLength; i++)        // ÃÖ´ë Å¸ÀÌÇÎ ¼ö ¸¸Å­ ¹İº¹
+        for (int i = 0; i <= strTypingLength; i++)        // ìµœëŒ€ íƒ€ì´í•‘ ìˆ˜ ë§Œí¼ ë°˜ë³µ
         {
-            text.text = str.Typing(i);                    // ÅØ½ºÆ® Å¸ÀÌÇÎ
+            text.text = str.Typing(i);                    // í…ìŠ¤íŠ¸ íƒ€ì´í•‘
 
-            yield return new WaitForSeconds(0.02f); // ÀÓÀÇ·Î Á¤ÇÑ ½Ã°£ ¸¸Å­ ±â´Ù¸²
+            yield return new WaitForSeconds(0.02f); // ì„ì˜ë¡œ ì •í•œ ì‹œê°„ ë§Œí¼ ê¸°ë‹¤ë¦¼
         }
     }
 }
