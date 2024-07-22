@@ -23,7 +23,7 @@ public class test : MonoBehaviour
                 case 5: StartCoroutine(TypingCoroutine("당신은 엄청난 행복감과 미래에 황금빛 같은 생활을 할 생각을 하며 첫 출근을 하게됩니다.")); break;
                 case 6: StartCoroutine(TypingCoroutine("첫날, 당신은 회사의 복잡한 구조와 수많은 연구 장비들에 놀라움을 금치 못합니다.")); break;
                 case 7: StartCoroutine(TypingCoroutine("곧이어 팀장님께서 나타나 신입 환영 인사를 하십니다.")); break;
-                case 8: StartCoroutine(TypingCoroutine("빅터: '환영합니다. 우리 팀에 합류하게 된걸 축하드립니다.'")); break;
+                case 8: StartCoroutine(TypingCoroutine("빅터: 환영합니다. 우리 팀에 합류하게 된걸 축하드립니다.")); break;
                 case 9: StartCoroutine(TypingCoroutine("당신은 팀원들과 인사를 나누고, 본격적인 업무를 시작합니다.")); break;
                 case 10: StartCoroutine(TypingCoroutine("첫 과제는 SCP-173에 대한 연구 자료를 분석하는 것이었습니다.")); break;
                 case 11: StartCoroutine(TypingCoroutine("빅터: '처음이라 어렵겠지만, 우리가 도와줄테니 걱정 마세요.'")); break;
