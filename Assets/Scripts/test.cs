@@ -28,7 +28,7 @@ public class test : MonoBehaviour
                 case 10: StartCoroutine(TypingCoroutine("첫 과제는 SCP-173에 대한 연구 자료를 분석하는 것이었습니다.")); break;
                 case 11: StartCoroutine(TypingCoroutine("빅터: '처음이라 어렵겠지만, 우리가 도와줄테니 걱정 마세요.'")); break;
                 case 12: StartCoroutine(TypingCoroutine("당신은 팀원들의 도움으로 서서히 업무에 적응해 갑니다.")); break;
-                case 13: StartCoroutine(TypingCoroutine("며칠 후, 첫 연구 결과를 발표하게 됩니다.")); break;
+                case 13: StartCoroutine(TypingCoroutine("며칠 후, 첫 실습시간이 오게됩니다.")); break;
                 case 14: StartCoroutine(TypingCoroutine("빅터: '잘 했습니다. 앞으로도 기대가 큽니다.'")); break;
                 case 15: StartCoroutine(TypingCoroutine("당신은 연구원으로서의 첫 발걸음을 성공적으로 내딛었습니다.")); break;
             }
