@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using KoreanTyper;
 
-public class test : MonoBehaviour 
+public class test : MonoBehaviour  
 {
     public Text text;
     public int index = 0;
