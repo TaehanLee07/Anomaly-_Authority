@@ -30,8 +30,7 @@ public class test : MonoBehaviour
                 case 12: StartCoroutine(TypingCoroutine("당신은 팀원들의 도움으로 서서히 업무에 적응해 갑니다.")); break;
                 case 13: StartCoroutine(TypingCoroutine("며칠 후, 첫 연구 결과를 발표하게 됩니다.")); break;
                 case 14: StartCoroutine(TypingCoroutine("팀장: '잘 했습니다. 앞으로도 기대가 큽니다.'")); break;
-                                case 15: StartCoroutine(TypingCoroutine("당신은 연구원으로서의 첫 발걸음을 성공적으로 내딛었습니다.")); break;
-
+                case 15: StartCoroutine(TypingCoroutine("당신은 연구원으로서의 첫 발걸음을 성공적으로 내딛었습니다.")); break;
             }
 
             index++;
