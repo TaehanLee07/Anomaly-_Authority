@@ -32,17 +32,17 @@ public class test : MonoBehaviour
                 case 14: StartCoroutine(TypingCoroutine("빅터: 긴장하지말고 잘 따라와주기만 해.")); break;
                 case 15: StartCoroutine(TypingCoroutine("그렇게 당신은 연구원으로서의 첫 발걸음을 내딛기 위하여 실험실로 들어갑니다.")); break;
                 case 16: StartCoroutine(TypingCoroutine("실험실 내부는 첨단 장비와 수많은 모니터로 가득 차 있었습니다.")); break;
-                case 17: StartCoroutine(TypingCoroutine("빅터: 이곳이 우리가 일하는 장소입니다. 모든 실험은 여기서 진행되죠.")); break;
+                case 17: StartCoroutine(TypingCoroutine("빅터: 이곳이 우리가 일할 장소야. 모든 실험은 여기서 진행될거야.")); break;
                 case 18: StartCoroutine(TypingCoroutine("당신은 흥분과 약간의 두려움을 느끼며 장비들을 둘러봅니다.")); break;
-                case 19: StartCoroutine(TypingCoroutine("빅터: 자, 오늘의 실습은 SCP-173의 특성을 분석하는 것입니다. 집중해 주세요.")); break;
+                case 19: StartCoroutine(TypingCoroutine("빅터: 자, 오늘의 실습은 SCP-173이라는 SCP에 대하여 연구해볼거야. 여기 문서를 꼭 자세히 읽어놔.")); break;
                 case 20: StartCoroutine(TypingCoroutine("당신은 팀장님의 지시에 따라 데이터를 수집하고 분석하기 시작합니다.")); break;
                 case 21: StartCoroutine(TypingCoroutine("실습 도중, 갑자기 경보음이 울리기 시작합니다.")); break;
-                case 22: StartCoroutine(TypingCoroutine("빅터: 침착하세요! 모두 지정된 위치로 대피하세요.")); break;
+                case 22: StartCoroutine(TypingCoroutine("빅터: 침착해! 침착하면 아무일도 없을거야.")); break;
                 case 23: StartCoroutine(TypingCoroutine("당신은 긴장된 마음으로 지시에 따라 대피합니다.")); break;
-                case 24: StartCoroutine(TypingCoroutine("빅터: 시스템 오류입니다. SCP-173이 격리에서 탈출하려고 합니다.")); break;
+                case 24: StartCoroutine(TypingCoroutine("빅터: 시스템 오류인가??. SCP-173이 격리실에서 탈출하려고 하는데?.")); break;
                 case 25: StartCoroutine(TypingCoroutine("당신은 공포에 휩싸이지만, 팀원들과 함께 문제를 해결하기 위해 최선을 다합니다.")); break;
-                case 26: StartCoroutine(TypingCoroutine("결국, 팀의 협력으로 SCP-173을 다시 격리하는 데 성공합니다.")); break;
-                case 27: StartCoroutine(TypingCoroutine("빅터: 잘했어요. 이번 경험은 앞으로 큰 도움이 될 겁니다.")); break;
+                case 26: StartCoroutine(TypingCoroutine("결국, 격리 실패가 발생하고 SCP-173의 격리실의 문이 열리게 됩니다.")); break;
+                case 27: StartCoroutine(TypingCoroutine("빅터: 걱정마. 173은 쳐다보고만 있으면 안전해 그나마 안전해.")); break;
                 case 28: StartCoroutine(TypingCoroutine("당신은 안도의 한숨을 쉬며, 연구원으로서의 책임감을 더욱 느끼게 됩니다.")); break;
                 case 29: StartCoroutine(TypingCoroutine("그렇게 첫 실습이 끝나고, 당신은 앞으로의 여정을 기대하며 사무실로 돌아갑니다.")); break;
             }
