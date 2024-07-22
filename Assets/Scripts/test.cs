@@ -44,7 +44,7 @@ public class test : MonoBehaviour
                 case 26: StartCoroutine(TypingCoroutine("결국, 격리 실패가 발생하고 SCP-173의 격리실의 문이 열리게 됩니다.")); break;
                 case 27: StartCoroutine(TypingCoroutine("빅터: 걱정마. 173은 쳐다보고만 있으면 안전해 그나마 안전해.")); break;
                 case 28: StartCoroutine(TypingCoroutine("당신은 패닉이 올거같았지만, 팀장의 말에 따라 173에게 눈을 떼지 않으려 눈에 힘을 줍니다.")); break;
-                case 29: StartCoroutine(TypingCoroutine("그렇게 첫 실습이 끝나고, 당신은 앞으로의 여정을 기대하며 사무실로 돌아갑니다.")); break;
+                case 29: StartCoroutine(TypingCoroutine("곧 있으면 보안부서에서 출동할거니깐 걱정마.")); break;
             }
 
             index++;
