@@ -23,13 +23,13 @@ public class test : MonoBehaviour
                 case 5: StartCoroutine(TypingCoroutine("당신은 엄청난 행복감과 미래에 황금빛 같은 생활을 할 생각을 하며 첫 출근을 하게됩니다.")); break;
                 case 6: StartCoroutine(TypingCoroutine("첫날, 당신은 회사의 복잡한 구조와 수많은 연구 장비들에 놀라움을 금치 못합니다.")); break;
                 case 7: StartCoroutine(TypingCoroutine("곧이어 팀장님께서 나타나 신입 환영 인사를 하십니다.")); break;
-                case 8: StartCoroutine(TypingCoroutine("팀장: '환영합니다. 우리 팀에 합류하게 되어 매우 기쁩니다.'")); break;
+                case 8: StartCoroutine(TypingCoroutine("빅터: '환영합니다. 우리 팀에 합류하게 된걸 축하드립니다.'")); break;
                 case 9: StartCoroutine(TypingCoroutine("당신은 팀원들과 인사를 나누고, 본격적인 업무를 시작합니다.")); break;
                 case 10: StartCoroutine(TypingCoroutine("첫 과제는 SCP-173에 대한 연구 자료를 분석하는 것이었습니다.")); break;
-                case 11: StartCoroutine(TypingCoroutine("팀원: '처음이라 어렵겠지만, 우리가 도와줄테니 걱정 마세요.'")); break;
+                case 11: StartCoroutine(TypingCoroutine("빅터: '처음이라 어렵겠지만, 우리가 도와줄테니 걱정 마세요.'")); break;
                 case 12: StartCoroutine(TypingCoroutine("당신은 팀원들의 도움으로 서서히 업무에 적응해 갑니다.")); break;
                 case 13: StartCoroutine(TypingCoroutine("며칠 후, 첫 연구 결과를 발표하게 됩니다.")); break;
-                case 14: StartCoroutine(TypingCoroutine("팀장: '잘 했습니다. 앞으로도 기대가 큽니다.'")); break;
+                case 14: StartCoroutine(TypingCoroutine("빅터: '잘 했습니다. 앞으로도 기대가 큽니다.'")); break;
                 case 15: StartCoroutine(TypingCoroutine("당신은 연구원으로서의 첫 발걸음을 성공적으로 내딛었습니다.")); break;
             }
 
