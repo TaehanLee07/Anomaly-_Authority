@@ -7,6 +7,6 @@ public class NewBehaviourScript : MonoBehaviour
 {
     public void OnStartButtonClicked()
     {
-        SceneManager.LoadScene("GameScene");    
+        SceneManager.LoadScene("GameScene");   
     }
 }
