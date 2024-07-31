@@ -1,4 +1,1 @@
-
-
 # Anomaly_Authority
-s
