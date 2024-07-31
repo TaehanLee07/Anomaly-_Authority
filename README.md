@@ -1,2 +1,1 @@
 # Anomaly_Authority
-ㄴ
